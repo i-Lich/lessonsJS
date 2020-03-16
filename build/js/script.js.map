@@ -1,0 +1,1 @@
+{"version":3,"sources":["lib.js"],"names":["multiple","first","second"],"mappings":"AAAA,SAAAA,SAAAC,EAAAC,GACA,OAAAD,EAAAC","file":"script.js","sourcesContent":["function multiple(first, second) {\r\n    return first * second;\r\n}"]}
