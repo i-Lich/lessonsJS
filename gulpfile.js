@@ -23,7 +23,8 @@ const cssFiles = [
 const jsFiles = [
     './src/js/lib.js',
     './src/js/main.js',
-    './src/js/less6.js'
+    './src/js/less6.js',
+    './src/js/less8.js'
 ]
 //стили
 function styles() {
