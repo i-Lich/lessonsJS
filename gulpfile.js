@@ -17,7 +17,7 @@ const browserSync = require('browser-sync').create();
 const cssFiles = [
     './src/scss/main.scss',
     './src/scss/media.scss'
-]
+];
 
 //js файлы
 const jsFiles = [
@@ -27,7 +27,8 @@ const jsFiles = [
     './src/js/less8.js',
     './src/js/less9.js',
     './src/js/less10.js',
-]
+    './src/js/less11.js',
+];
 //стили
 function styles() {
     return gulp.src(cssFiles)
@@ -67,7 +68,7 @@ function images() {
     return gulp.src('./src/img/**')
     .pipe(image())
     .pipe(gulp.dest('./build/img/'))
-};
+}
 
 //удалить лишние файлы
 function clean(){
