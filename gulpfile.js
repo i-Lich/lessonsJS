@@ -28,6 +28,7 @@ const jsFiles = [
     './src/js/less9.js',
     './src/js/less10.js',
     './src/js/less11.js',
+    './src/js/less12.js',
 ];
 //стили
 function styles() {
