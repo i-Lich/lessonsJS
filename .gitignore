@@ -112,8 +112,7 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-!/package-lock.json
-!/package-lock.json
+/package-lock.json
 .idea/.gitignore
 .idea/lessons.iml
 .idea/misc.xml
@@ -121,4 +120,4 @@ $RECYCLE.BIN/
 .idea/vcs.xml
 node_modules/
 package-lock.json
-!/build/
+/build/
