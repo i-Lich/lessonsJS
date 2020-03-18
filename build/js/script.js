@@ -1,2 +1,2 @@
-function multiple(n,t){return n*t}
+function multiple(e,r){return e*r}let users=[{id:1,name:"Fedor",gender:"male"},{id:2,name:"Pavel",gender:"male"},{id:3,name:"Oleg",gender:"male"},{id:4,name:"Olga",gender:"female"}];function checkUsers(e,r,n){if(arguments.length<3)return alert("Переданы не все аргументы!"),!1;let l=[];for(user of e)user[r]===n&&l.push(user);return l}console.log(checkUsers(users,"gender","male"));
 //# sourceMappingURL=script.js.map
