@@ -116,42 +116,42 @@
 // let c = ['one', 'two', 'three'];
 // console.log(changeCollection(a, b, c));
 
-//  8
-// 8. Создать функцию которая принимает массив пользователей, поле на которое хочу проверить и значение на которое хочу проверять. Проверять что все аргументы переданы. Возвращать новый массив с пользователями соответсвующие указанным параметрам.
-//     Данное задание выполните после того как познакомитесь с методами массивов
-let users = [
-    {
-        id: 1,
-        name: 'Fedor',
-        gender: 'male'
-    },
-    {
-        id: 2,
-        name: 'Pavel',
-        gender: 'male'
-    },
-    {
-        id: 3,
-        name: 'Oleg',
-        gender: 'male'
-    },
-    {
-        id: 4,
-        name: 'Olga',
-        gender: 'female'
-    },
-]
-function checkUsers(users, key, value) {
-    if (arguments.length < 3){
-        alert('Переданы не все аргументы!');
-        return false;
-    }
-    let res = [];
-    for (user of users){
-        if (user[key] === value){
-            res.push(user);
-        }
-    }
-    return res;
-}
-console.log(checkUsers(users, 'gender', 'male'));
+// //  8
+// // 8. Создать функцию которая принимает массив пользователей, поле на которое хочу проверить и значение на которое хочу проверять. Проверять что все аргументы переданы. Возвращать новый массив с пользователями соответсвующие указанным параметрам.
+// //     Данное задание выполните после того как познакомитесь с методами массивов
+// let users = [
+//     {
+//         id: 1,
+//         name: 'Fedor',
+//         gender: 'male'
+//     },
+//     {
+//         id: 2,
+//         name: 'Pavel',
+//         gender: 'male'
+//     },
+//     {
+//         id: 3,
+//         name: 'Oleg',
+//         gender: 'male'
+//     },
+//     {
+//         id: 4,
+//         name: 'Olga',
+//         gender: 'female'
+//     },
+// ]
+// function checkUsers(users, key, value) {
+//     if (arguments.length < 3){
+//         alert('Переданы не все аргументы!');
+//         return false;
+//     }
+//     let res = [];
+//     for (user of users){
+//         if (user[key] === value){
+//             res.push(user);
+//         }
+//     }
+//     return res;
+// }
+// console.log(checkUsers(users, 'gender', 'male'));
