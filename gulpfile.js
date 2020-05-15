@@ -33,7 +33,8 @@ const jsFiles = [
     './src/js/less14callback.js',
     './src/js/less16this.js',
     './src/js/less17arrows.js',
-    './src/js/less18arrays.js'
+    './src/js/less18arrays.js',
+    './src/js/less19closures.js'
 ];
 //стили
 function styles() {

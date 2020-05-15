@@ -1,2 +1,2 @@
-function multiple(n,t){return n*t}
+function multiple(o,n){return o*n}const myCalc=function(o=0){return{setValue:function(n){return o=parseFloat(n),this},plus:function(n){return o+=n},minus:function(n){return o-=n},multiplication:function(n){return o*=n},division:function(n){return o/=n},toPower:function(n){return o=Math.pow(o,n)},getValue:function(){return o.toFixed(2)}}}();myCalc.setValue("123abcdefg"),console.log(myCalc.getValue()),console.log(myCalc.plus(2)),console.log(myCalc.division(5)),console.log(myCalc.toPower(2)),console.log(myCalc.getValue()),console.log(myCalc.minus(525)),myCalc.setValue(100.222).toPower(2),console.log(myCalc.getValue());
 //# sourceMappingURL=script.js.map
